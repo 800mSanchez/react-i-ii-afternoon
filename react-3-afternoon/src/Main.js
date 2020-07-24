@@ -10,11 +10,17 @@ class Main extends Component {
       }
   }
   
+/* changeData(){
+    this.setState({
+        data: 
+    }) 
+} */
+
   render(){
       return <div>
-          <h2>I am the List of People</h2>
-          <button> Previous </button>
-          <button> Next </button>
+          <h2>I am the List of People</h2> {/* ----> I think I want to change the slides of array data here */}
+          <button /* onClick={() => this.changeData()} */> Previous </button>
+          <button /* onClick={() => this.changeData()} */> Next </button>
       </div>
   }
 }
