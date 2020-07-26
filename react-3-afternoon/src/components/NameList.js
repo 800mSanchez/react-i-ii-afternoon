@@ -1,6 +1,8 @@
+import React from 'react'
+import People from './People';
 
-  const data = [
-    {
+function NameList(){
+  const persons
       id: 1,
       name: { first: "Waylin", last: "Lumsdon" },
       city: "Likiep",
@@ -286,4 +288,9 @@
     ]
   }
 ];
+const personList = persons.map(person => <People key={person.id} person={person} />)
+return <div>{personList}</div>
 
+}
+
+export default NameList

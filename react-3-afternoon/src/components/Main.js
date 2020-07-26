@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
-import data from '../data'
+/* import React, { Component } from 'react';
 
 class Main extends Component {
   constructor(props){
       super(props)
       this.state = {
-          dataArr: data
+          dataArr: NameList
       }
   }
   
@@ -17,10 +16,10 @@ showData(index){
 
   render(){
       return <div className="data-box">
-                <div>{this.state.dataArr}</div> {/* ----> I think I want to change the slides of array data here */}
-             </div>
-  }
-}
+                <div>{this.state.dataArr}</div> {/* ----> I think I want to change the slides of array data here *///}
+             //</div>
+  //}
+//}
 
 
-export default Main;
+//export default Main; 
